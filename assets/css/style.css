@@ -1,0 +1,16 @@
+.professionalColor {
+    color: #0000bf;
+}
+
+.mainContent {
+    padding: 50px 30px !important;
+}
+
+.imgProfile {
+    width: 45px;
+    border-radius: 30px;
+}
+
+.profileName {
+    padding: .5rem 1rem;
+}
