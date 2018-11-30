@@ -23,8 +23,25 @@
         </div>
     </nav>
     <div class="mainContent container">
-        <h1 class="professionalColor">About Me</h1>
+        <h1 class="professionalColor">Contact</h1>
+
+        <form>
+            <label for="nameFormControl">Name</label>
+            <input type="text" class="form-control" id="nameFormControl" placeholder="John Smith">
+
+            <label for="emailFormControl">Email address</label>
+            <input type="email" class="form-control" id="emailFormControl" placeholder="name@example.com">
+
+            <label for="messageFormControl">Message</label>
+            <textarea class="form-control" id="messageFormControl" style="width: 100%; min-height:100px;"></textarea>
+
+            <button type="button" class="btn btn-primary">Submit</button>
+        </form>
     </div>
+
+    <footer style="border:1px solid black; position: absolute;bottom: 0px; width: 100%; text-align: center">
+        Copyright
+    </footer>
 </body>
 
 </html>

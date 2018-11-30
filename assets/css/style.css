@@ -14,3 +14,13 @@
 .profileName {
     padding: .5rem 1rem;
 }
+
+.bottom-card-title {
+    position: absolute;
+    bottom: 0px;
+}
+
+.img-fl {
+    float: left;
+    margin-right: 15px;
+}
