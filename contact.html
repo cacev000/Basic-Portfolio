@@ -9,15 +9,15 @@
 </head>
 
 <body>
-    <nav class="navbar">
+    <nav class="navbar header-style">
         <div class="row" style="width: 100%">
-            <div class="row offset-md-2">
+            <div class="row offset-xs-0 offset-sm-0 offset-md-1 offset-lg-1 offset-xl-2">
                 <a href="./index.html">
                     <img class="imgProfile" src="./assets/images/portfolioImg.jpg">
                 </a>
                 <h5 class="profileName professionalColor">Carlos Acevedo</h5>
             </div>
-            <div class="offset-md-4 row">
+            <div class="row offset-xs-0 offset-sm-1 offset-md-3 offset-lg-4 offset-xl-4">
                 <a class="professionalColor nav-link" href="./index.html">About</a>
                 <a class="professionalColor nav-link" href="./portfolio.html">Portfolio</a>
                 <a class="professionalColor nav-link" href="./contact.html">Contact Me</a>
@@ -25,23 +25,28 @@
         </div>
     </nav>
     <div class="mainContent container">
-        <h1 class="professionalColor">Contact</h1>
-
-        <form>
-            <label for="nameFormControl">Name</label>
-            <input type="text" class="form-control" id="nameFormControl" placeholder="John Smith">
-
-            <label for="emailFormControl">Email address</label>
-            <input type="email" class="form-control" id="emailFormControl" placeholder="name@example.com">
-
-            <label for="messageFormControl">Message</label>
-            <textarea class="form-control" id="messageFormControl" style="width: 100%; min-height:100px;"></textarea>
-
-            <button type="button" class="btn btn-primary">Submit</button>
-        </form>
+        <div class="card card-shadow">
+            <div class="card-header professionalColor h-40">
+                Contact
+            </div>
+            <div class="card-body">
+                <form>
+                    <label for="nameFormControl">Name</label>
+                    <input type="text" class="form-control mb-10" id="nameFormControl" placeholder="John Smith">
+                
+                    <label for="emailFormControl">Email address</label>
+                    <input type="email" class="form-control mb-10" id="emailFormControl" placeholder="name@example.com">
+                
+                    <label for="messageFormControl">Message</label>
+                    <textarea class="form-control mb-10" id="messageFormControl" style="width: 100%; min-height:100px;"></textarea>
+                
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
     </div>
 
-    <footer style="border:1px solid black; position: absolute;bottom: 0px; width: 100%; text-align: center">
+    <footer class="footer-style bottom-card-title professionalColor">
         Copyright
     </footer>
 </body>
